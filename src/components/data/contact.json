@@ -1,0 +1,22 @@
+{
+    "contact":[
+        {
+            "id": 1,
+            "image": "./contact/phone.png",
+            "information": "+62 123 456 789",
+            "name": "Phone"
+        },
+        {
+            "id": 2,
+            "image": "./contact/email.png",
+            "information": "agrieva.xananda08@gmail.com",
+            "name": "Email"
+        },
+        {
+            "id": 3,
+            "image": "./contact/address.png",
+            "information": "jalan kenangan kita bersama <3",
+            "name": "Address"
+        }
+    ]
+}

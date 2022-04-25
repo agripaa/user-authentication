@@ -1,0 +1,25 @@
+{ 
+    "product": [
+        {
+            "id": 1,
+            "name": "Kopi Robusta",
+            "description": "lorem ipsum dolor sit amet",
+            "price": 20000,
+            "image": "./product/robusta.jpg"
+        },
+        {
+            "id": 2,
+            "name": "Kopi Luwak",
+            "description": "lorem ipsum dolor sit amet",
+            "price": 90000,
+            "image": "./product/luwak.jpg"
+        },
+        {
+            "id": 3,
+            "name": "Kopi Lampung",
+            "description": "lorem ipsum dolor sit amet",
+            "price": 60000,
+            "image": "./product/lampung.jpg"
+        }
+    ]
+}

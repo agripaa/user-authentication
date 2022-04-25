@@ -1,0 +1,21 @@
+button.about-button{
+    color: white;
+    border: 1px solid rgb(78, 52, 3);
+    background: rgb(78, 52, 3);
+}
+
+button.about-button:hover{
+    color: black;
+    background: transparent;
+}
+
+button.about-buttons{
+    color: black;
+    background: white;
+    border: 1px solid rgb(78, 52, 3);
+}
+
+button.about-buttons:hover{
+    color: white;
+    background: rgb(78, 52, 3);
+}
