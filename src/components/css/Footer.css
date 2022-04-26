@@ -28,7 +28,6 @@ footer{
     line-height: 3rem;
 }
 .footer-content p{
-    max-width: 500px;
     margin: 10px auto;
     line-height: 20px;
     font-size: 14px;
@@ -38,11 +37,14 @@ footer{
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 1rem 0 3rem 0;
+    margin: 1rem 2rem 3rem;
+
 }
 .social li{
-    margin: 0 20px;
+    margin: 0 25px;
     justify-content: center;
+    align-items: center;
+    display: flex;
 }
 .social a{
     text-decoration: none;
@@ -64,7 +66,7 @@ footer{
     text-align: center;
 }
 .footer-bottom p{
-    font-size: 14px;
+    font-size: 8px;
     word-spacing: 2px;
     text-transform: capitalize;
 }

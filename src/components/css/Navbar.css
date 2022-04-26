@@ -30,17 +30,16 @@
 
 .nav-links {
     display: flex;
-
 }
 
 .nav-links li {
-    margin-left: 1rem;
+    margin-left: 4rem;
     list-style: none;
 }
 
 .nav-links a {
-    font-size: 1rem;
-    font-weight: 300;
+    font-size: 1.5rem;
+    font-weight: 500;
     color: #000;
     text-decoration: none;
     margin-left: 1rem;
@@ -80,11 +79,54 @@
     cursor: pointer;
 }
 
-@media screen and (max-width: 769px){
-    .nav-btn {
-        display: none;
+@media screen and (max-width: 1200px){
+    .nav-links a{
+        font-size: .8rem;
+    }
+
+    .nav-links li{
+        margin-right: 0;
+    }
+
+    .nav-btn button{
+    display: inline-block;
+    padding: 5px;
+    margin: 0;
     }
 }
+
+@media screen and (max-width: 990px){
+    .nav-links a{
+        font-size: .6rem;
+    }
+
+    .nav-links li{
+        margin-right: -3rem;
+    }
+
+    .nav-btn button{
+    display: inline-block;
+    padding: 1px;
+    margin: 0;
+    }
+}
+
+@media screen and (max-width: 990px){
+    .nav-links a{
+        font-size: .6rem;
+    }
+
+    .nav-links li{
+        margin-right: -2rem;
+    }
+
+    .nav-btn button{
+    display: none;
+    padding: 1px;
+    margin: 0;
+    }   
+}
+
 
 @media screen and (max-width: 600px) {
     .nav-btn {

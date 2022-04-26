@@ -4,19 +4,6 @@
     color: white;
 }
 
-/* .content{
-    color: white;
-    height: 200px;
-    position: relative;
-    width: 100%;
-    margin: 0 auto;
-    margin: 0;
-    position: absolute;
-    top: 35%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-} */
-
 button.buttonss{
     color: white;
     border: 1px solid white;
@@ -36,14 +23,4 @@ button.buttons{
 button.buttons:hover{
     color: white;
     background: transparent;
-}
-
-.card {
-    transition: all 0.5s ease;
-}
-
-.card:hover {
-    cursor: pointer;
-      
-box-shadow: 10px 10px rgba(0, 0, 0, .15);
 }

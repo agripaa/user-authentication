@@ -33,7 +33,7 @@ const Navbar = () => {
             <li><a href="/contact">Contact</a></li>
             <li className="nav-btn">
               <button className='btn btn-outline ms-auto px-4 rounded-pill'><i className='fa fa-sign-in me-2'></i> Login</button>
-              <button className='btn btn-outline ms-2 px-4 rounded-pill'><i className='fa fa-user-plus me-2'></i> Login</button>
+              <button className='btn btn-outline ms-2 px-4 rounded-pill'><i className='fa fa-user-plus me-2'></i> Register</button>
             </li>
           </ul>
         </menu>

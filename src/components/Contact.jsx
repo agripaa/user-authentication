@@ -26,9 +26,10 @@ const Contact = () => {
     <div>
         <section id='contact'>
             <div className='contact-background'></div>
+            <h1 className='contact-title'>Contact</h1>
+            <hr className='w-25 mx-auto' />
             <div className='contact-wrapper container'>
-                <div className='left-content'>
-                    <h1 className='contact-title'>Contact</h1>
+                    <div className='left-content'>
                         {contactList.map((contact, index) => {
                             return(
                             <div className='contact-info' key={index}>
@@ -47,11 +48,11 @@ const Contact = () => {
                         <form ref={formRef} onSubmit={submit}>
                             <input type='text' placeholder='Your Name' name='user_name' />
                             <br />
-                            <input type='text' placeholder='Subject Question' name='user_subject' />
+                            <input type='text' placeholder='Subject' name='user_subject' />
                             <br />
                             <input type='text' placeholder='Your Email' name='user_email' />
                             <textarea rows={5} placeholder='Typing Here..' name='message' />
-                            <button className='btn contact-button'>Submit</button>
+                            <button className='btn btn-outline ms-auto px-4 rounded-pill contact-button'>Submit</button>
                             {done && "submited!"}
                         </form>
                     </div>

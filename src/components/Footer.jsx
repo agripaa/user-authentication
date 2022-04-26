@@ -1,5 +1,5 @@
 import React from 'react'
-import { Facebook, Instagram,  } from '@mui/icons-material';
+import { Facebook, Instagram, LinkedIn } from '@mui/icons-material';
 import './css/Footer.css'
 
 const Footer = () => {
@@ -11,6 +11,7 @@ const Footer = () => {
              <ul className='social'>
                  <li><a href='https://www.facebook.com/profile.php?id=100072329021456'><Facebook icon="fa-brands fa-facebook" className='icon'/></a></li>
                  <li><a href='https://www.instagram.com/real.jounny/'><Instagram icon="fa-brands fa-instagram" className='icon' /></a></li>
+                 <li><a href='https://www.linkedin.com/in/agrieva-xananda-7a753422b/'><LinkedIn icon="fa-brands fa-linkedin" className="icon"  /></a></li>
              </ul>                            
          </div>
          <div className='footer-bottom'>
