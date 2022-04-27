@@ -1,0 +1,37 @@
+.form{
+    background:rgb(78, 52, 3);
+    color: white;
+}
+
+.form .log-btn{
+    color: white;
+    border: 1px solid white;
+}
+
+.form .log-btn:hover{
+    color: black;
+    background: white;
+}
+
+.right{
+    margin: 0 0 0 2rem;
+}
+
+form{
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+
+}
+
+form .submit-btn{
+    border: 1px solid rgb(78, 52, 3);
+    color: white;
+    background:rgb(78, 52, 3);
+    margin: 0 0 1rem;
+}
+
+form .submit-btn:hover{
+    color: rgb(78, 52, 3);
+    background: white;
+}

@@ -1,3 +1,7 @@
+*{
+    scroll-behavior: smooth;
+}
+
 #home{
     background: linear-gradient(to bottom, #603813 75%, white 100%);
     min-height: 500px;

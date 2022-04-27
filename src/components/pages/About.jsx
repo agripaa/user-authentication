@@ -1,5 +1,5 @@
-import coffeAbout from './assets/coffe-about.jpg'
-import './css/About.css'
+import coffeAbout from '../assets/coffe-about.jpg'
+import '../css/About.css'
 
 const About = () => {
   return (
@@ -17,9 +17,6 @@ const About = () => {
               <p className='lead mb-4'>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at est vitae urna volutpat fermentum et sed dui. Donec tincidunt libero eu sem mattis ultrices. Vestibulum tempor aliquet leo, rhoncus congue ipsum fermentum eu. Aenean quis dui euismod, consequat ex non, commodo purus. Suspendisse pharetra condimentum placerat.
               </p>
-              {/* <div className='button'>
-                <button className='btn button px-4 py-2'>Get Started</button>
-              </div> */}
               <button className='btn about-button me-4 rounded-pill px-4 py-2'>Get Started</button>
               <button className='btn about-buttons me-4 rounded-pill px-4 py-2'>Our Service</button>
             </div>

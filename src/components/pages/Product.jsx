@@ -4,11 +4,11 @@ import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
 import { CardActionArea } from '@mui/material';
-import Button from '@mui/material/Button';
-import data from './data/product.json'
+import { NavLink } from 'react-router-dom'
+import data from '../data/product.json'
 import { useState , useEffect } from 'react'
 import { createTheme } from '@mui/system';
-import './css/Product.css'
+import '../css/Product.css'
 
 const Product = () => {
     const [ productList, setProductList ] = useState([]);
@@ -54,7 +54,7 @@ const Product = () => {
                         )
                     })}
                 </div>
-                <button className='btn btn-outline ms-auto px-4 rounded-pill button'  >Other Product</button>
+                <NavLink to='/full-product' className='btn product-btn button'  >Other Product</NavLink>
             </div>
         </section>
     </div>

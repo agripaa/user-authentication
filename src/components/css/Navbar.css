@@ -37,19 +37,19 @@
     list-style: none;
 }
 
-.nav-links a {
-    font-size: 1.5rem;
+.nav-links .nav-link {
+    font-size: 1.2rem;
     font-weight: 500;
     color: #000;
     text-decoration: none;
-    margin-left: 1rem;
+    margin-left: .1rem;
 }
 
-.nav-links a:hover {
+.nav-links .nav-link:hover {
     color: rgb(78, 52, 3);
 }
 
-.nav-btn button{
+.nav-btn .nav-btn{
     display: inline-block;
     color: rgb(78, 52, 3);
     text-decoration: none;
@@ -58,7 +58,7 @@
     border: 1px solid rgb(78, 52, 3);
 }
 
-.nav-btn button:hover{
+.nav-btn .nav-btn:hover{
     animation: pultase 1s ease-in-out;
     border: 1px solid black;
 }
@@ -80,7 +80,7 @@
 }
 
 @media screen and (max-width: 1200px){
-    .nav-links a{
+    .nav-links .nav-link{
         font-size: .8rem;
     }
 
@@ -88,7 +88,7 @@
         margin-right: 0;
     }
 
-    .nav-btn button{
+    .nav-btn .nav-btn{
     display: inline-block;
     padding: 5px;
     margin: 0;
@@ -96,7 +96,7 @@
 }
 
 @media screen and (max-width: 990px){
-    .nav-links a{
+    .nav-links .nav-link{
         font-size: .6rem;
     }
 
@@ -104,7 +104,7 @@
         margin-right: -3rem;
     }
 
-    .nav-btn button{
+    .nav-btn .nav-btn{
     display: inline-block;
     padding: 1px;
     margin: 0;
@@ -112,7 +112,7 @@
 }
 
 @media screen and (max-width: 990px){
-    .nav-links a{
+    .nav-links .nav-link{
         font-size: .6rem;
     }
 
@@ -120,7 +120,7 @@
         margin-right: -2rem;
     }
 
-    .nav-btn button{
+    .nav-btn .nav-btn{
     display: none;
     padding: 1px;
     margin: 0;

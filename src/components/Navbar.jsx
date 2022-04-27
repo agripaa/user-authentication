@@ -1,8 +1,9 @@
-import React, {useState, useEffect} from 'react'
-import { AiOutlineBars } from "react-icons/ai"
-import { RiCloseLine } from "react-icons/ri"
-import AOS from 'aos'
-import "./css/Navbar.css"
+import React, {useState, useEffect} from 'react';
+import { AiOutlineBars } from "react-icons/ai";
+import { RiCloseLine } from "react-icons/ri";
+import { NavLink } from 'react-router-dom';
+import AOS from 'aos';
+import "./css/Navbar.css";
 
 
 const Navbar = () => {
@@ -22,18 +23,18 @@ const Navbar = () => {
     <nav className="container navbar">
       <div className='logo'>
             <p className="logo-text">
-              Coffe <span>Shop</span>
+              Coffee <span>Shop</span>
             </p>
         </div>
         <menu>
           <ul className="nav-links" id={showMenu ? "nav-links-mobile" : "nav-links-mobile-hide"}>
-            <li><a href="/home">Home</a></li>
-            <li><a href="/about">About</a></li>
-            <li><a href="/product">Product</a></li>
-            <li><a href="/contact">Contact</a></li>
+                  <li><NavLink className='nav-link' aria-current='page' to='/'>Home</NavLink></li>
+                  <li><NavLink className='nav-link' aria-current='page' to='/about'>About</NavLink></li>
+                  <li><NavLink className='nav-link' aria-current='page' to='/product'>Product</NavLink></li>
+                  <li><NavLink className='nav-link' aria-current='page' to='/contact'>Contact</NavLink></li>
             <li className="nav-btn">
-              <button className='btn btn-outline ms-auto px-4 rounded-pill'><i className='fa fa-sign-in me-2'></i> Login</button>
-              <button className='btn btn-outline ms-2 px-4 rounded-pill'><i className='fa fa-user-plus me-2'></i> Register</button>
+              <NavLink className='btn btn-outline ms-auto px-4 rounded-pill nav-btn' aria-current='page' to='/login'><i className='fa fa-sign-in me-2'></i> Login</NavLink>
+              <NavLink className='btn btn-outline ms-2 px-4 rounded-pill nav-btn' aria-current='page' to='/register'><i className='fa fa-user-plus me-2'></i> Register</NavLink>
             </li>
           </ul>
         </menu>
@@ -45,5 +46,6 @@ const Navbar = () => {
     </nav>
   )
 }
+
 
 export default Navbar

@@ -14,17 +14,19 @@
     box-shadow: 10px 10px rgb(78, 52, 3);
 }
 
-button.button{
+.product-btn.button{
     border: 1px solid rgb(78, 52, 3);
+    border-radius: 24px;
     color: rgb(78, 52, 3);
     font-weight: 400;
     justify-content: center;
     align-items: center;
     display: flex;
-    margin: 0 auto;
+    margin: 0 30rem;
+    padding: 10px 0;
 }
 
-button.button:hover{
+.product-btn.button:hover{
     background: rgb(78, 52, 3);
     color: white;
 }
