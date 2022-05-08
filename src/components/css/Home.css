@@ -1,0 +1,20 @@
+.butons .buttonss{
+    color: white;
+    border: 1px solid white;
+}
+
+.butons .buttonss:hover{
+    color: black;
+    background: white;
+}
+
+.butons .buttons{
+    color: black;
+    background: white;
+    border: 1px solid white;
+}
+
+.butons .buttons:hover{
+    color: white;
+    background: transparent;
+}
